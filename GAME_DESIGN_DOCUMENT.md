@@ -1,9 +1,11 @@
-# GAME DESIGN DOCUMENT: REWIRED — The Prefrontal Recovery Club
-### Comprehensive Research, Mechanics, Copywriting, and Systems Architecture
-**Working Title:** *REWIRED: The Prefrontal Recovery Club*  
-**Genre:** Vocabulary-Building / Cognitive Rehabilitation Card & Board Game  
+# GAME DESIGN DOCUMENT (v4): REWIRED — The Prefrontal Recovery Club
+### Comprehensive Neuroscience Research, "Synaptic Web" 20-Family Mechanics, Red Decoder Lens System, A1–B1 Copywriting, and Monte Carlo Balancing
+**Working Title:** *REWIRED: The Prefrontal Recovery Club* (Version 4.0)  
+**Genre:** Vocabulary-Building / Cognitive Rehabilitation Tabletop Card & Board Game  
+**Target Proficiency:** CEFR A1 – B1 English Learners (Accessible & Expandable)  
 **Target Audience:** Ages 14+, 2–4 Players (Competitive & Cooperative Modes)  
-**Play Time:** 30–45 Minutes  
+**Play Time:** 25–40 Minutes (9–11 Rounds)  
+**Simulation Report:** See [`MONTE_CARLO_SIMULATION_REPORT.md`](MONTE_CARLO_SIMULATION_REPORT.md)
 
 ---
 
@@ -14,80 +16,60 @@
    - 2.2 Working Memory & Attentional Degradation (The Laier & Brand Findings)
    - 2.3 The Linguistic Impact: Why Digital Addiction Impairs Word Retrieval & Verbal Fluency
    - 2.4 The I-PACE Theoretical Model (Brand et al.)
-   - 2.5 Neuroplasticity & Cognitive Recovery via Verbal Games
+   - 2.5 Neuroplasticity & Cognitive Recovery via Semantic Networks
    - 2.6 Academic References & Peer-Reviewed Literature
 3. [Comparative Board Game Industry Analysis](#3-comparative-board-game-industry-analysis)
-   - 3.1 Codenames (Vlaada Chvátil)
-   - 3.2 Paperback & Hardback (Tim Fowers)
-   - 3.3 Balderdash (Laura Robinson & Paul Toyne)
-   - 3.4 So Clover! (François Romain)
-   - 3.5 Just One (Ludovic Roudy & Bruno Sautter)
-   - 3.6 Taboo & Decrypto
-   - 3.7 Synthesis Matrix: Best Practices for REWIRED
-4. [Game Architecture & Components](#4-game-architecture--components)
-   - 4.1 Component Manifest
-   - 4.2 The Dual-Layer Brain Progression Tracker (0%–100%)
+4. [Game Architecture & Components (v4 Streamlined)](#4-game-architecture--components-v4-streamlined)
+   - 4.1 Complete Component Manifest
+   - 4.2 The Brain Progression Tracker (0%–100%) & Stage Floors
    - 4.3 The Five Cognitive Stages & Milestone Perks
-5. [Core Gameplay Mechanics & Systems](#5-core-gameplay-mechanics--systems)
-   - 5.1 The Synaptic Display (Central Market)
-   - 5.2 Turn Structure (3 Phased Loop)
-   - 5.3 The Neuro-Link Engine (Matching & Verification)
-   - 5.4 The Verbal Fluency Challenge (Broca’s Activation)
-   - 5.5 Support Circle Assist (Catch-Up & Zero Downtime)
-6. [The Habit Loops & Triggers System (Special Cards)](#6-the-habit-loops--triggers-system-special-cards)
-   - 6.1 Behavioral Science Foundation (Cue, Craving, Response, Reward)
-   - 6.2 Trigger / Relapse Risk Cards (Setbacks)
-   - 6.3 Keystone Healthy Habit Cards (Boosts)
-   - 6.4 The "Urge Surfing" Shield Mechanism
-   - 6.5 Interactive Support Circle Cards
+5. [Core Gameplay Mechanics: The "Synaptic Web" & Red Decoder Lens](#5-core-gameplay-mechanics-the-synaptic-web--red-decoder-lens)
+   - 5.1 The 20 Word Families Architecture (80 A1–B1 Words)
+   - 5.2 Exact Links vs. Echo (Family) Links
+   - 5.3 The Red Acrylic Decoder Lens Verification System
+   - 5.4 The Meaning Row (6 Cards) & End-of-Round Pruning
+   - 5.5 Turn Structure (3-Phase Loop) & The "Study" Action
+   - 5.6 Optional "Read the Frame" & Advanced "Fluent Mode"
+6. [The Opportunity Cards & Habit Loops System](#6-the-opportunity-cards--habit-loops-system)
+   - 6.1 The 15 Opportunity Cards (Shuffled into the Lexicon Deck)
+   - 6.2 Behavioral Science Foundation (Cue, Craving, Response, Reward)
+   - 6.3 The 40-Card Habit Loops & Triggers Deck Breakdown
 7. [Copywriting Guide & Ethical Standards](#7-copywriting-guide--ethical-standards)
-   - 7.1 Strict Tone & Content Guidelines
-   - 7.2 The Three Copywriting Pillars (Warmth, Humor, Science)
-8. [Card Catalog & Copywriting Samples](#8-card-catalog--copywriting-samples)
-   - 8.1 Lexicon Deck Samples (Words & Etymology)
-   - 8.2 Cognitive Clue Deck Samples (Definitions & Synonyms)
-   - 8.3 Habit Loops & Triggers Deck Samples (Flavor Text & Effects)
-9. [Round-by-Round Gameplay Simulation](#9-round-by-round-gameplay-simulation)
-   - 9.1 Game Setup & Initial State
-   - 9.2 Round 1: Breaking the Fog
-   - 9.3 Round 2: A Trigger Hits the Table
-   - 9.4 Round 3: The Urge Surfing Save & Milestone Perk
-   - 9.5 Endgame Climax: Crossing the 100% Threshold
-10. [Replayability, Expansions, and Alternative Game Modes](#10-replayability-expansions-and-alternative-game-modes)
-    - 10.1 Cooperative Support Group Mode
-    - 10.2 Solo Neuro-Gym Workout Mode
-    - 10.3 High-Replayability Modifiers & Future Expansion Decks
+8. [The Complete 20 Semantic Families & Card Catalog (A1–B1)](#8-the-complete-20-semantic-families--card-catalog-a1b1)
+   - 8.1 Master Matrix of All 20 Word Families (80 A1–B1 Words)
+   - 8.2 Lexicon Word Card Samples
+   - 8.3 Cognitive Clue Card Samples (with Red Decoder Strips)
+   - 8.4 Opportunity & Habit Card Samples
+9. [Round-by-Round Gameplay Simulation (v4 Rules)](#9-round-by-round-gameplay-simulation-v4-rules)
+10. [Monte Carlo Balancing Summary & Replayability](#10-monte-carlo-balancing-summary--replayability)
 
 ---
 
 # 1. EXECUTIVE SUMMARY & GAME CONCEPT
 
 ### 1.1 The Narrative Premise
-Modern society is caught in an invisible epidemic of hyper-digital stimulation. The human brain, evolved over millions of years to forage for berries and build tribal alliances, has been blindsided by infinite high-speed internet pornography, algorithmic dopamine slot machines, and relentless visual gratification. 
+Modern society is caught in an invisible epidemic of hyper-digital stimulation. The human brain, evolved over millions of years to build real-world connections and solve physical challenges, has been blindsided by high-speed internet pornography, algorithmic dopamine slot machines, and endless late-night screen scrolling.
 
-In **REWIRED: The Prefrontal Recovery Club**, 2 to 4 players portray members of a weekly recovery circle. These individuals have recognized that chronic digital consumption has left their minds feeling sluggish, unfocused, and linguistically depleted—a state commonly characterized as "brain fog." Rather than submitting to guilt, shame, or isolation, they form a gathering dedicated to **active neuroplastic rehabilitation**.
+In **REWIRED: The Prefrontal Recovery Club**, 2 to 4 players step into the shoes of members of a weekly recovery circle. Recognizing that chronic digital consumption has left their minds feeling sluggish, unfocused, and linguistically foggy ("brain fog"), they gather not in shame or judgment, but for **active neuroplastic rehabilitation**.
 
-Through competitive camaraderie and shared accountability, players engage in daily cognitive workouts: rebuilding their vocabulary, linking words with rich semantic meanings, retrieving synonyms, articulating expressive sentences, and navigating real-life emotional triggers. 
-
-### 1.2 Core Objective
-Each player manages an individual **Brain Progression Tracker (0% to 100%)**. Players start at **0% (The Dopamine Fog)**. By successfully forging "Neuro-Links" (matching vocabulary cards to their definitions/synonyms and constructing expressive sentences) and establishing healthy lifestyle habits, players advance their tracker toward the 100% mark. The first player whose prefrontal cortex achieves **100% (Neuroplastic Mastery)** restores their executive baseline and wins the game!
+Through friendly competition and mutual encouragement, players rebuild their semantic networks by connecting **CEFR A1–B1 English words** to their meanings and semantic families, checking their discoveries with a physical **Red Decoder Lens**, and navigating real-life habit triggers to restore their brains from **0% (The Dopamine Fog)** to **100% (Neuroplastic Mastery)**.
 
 ```
-[0% - 20%]   --> [21% - 40%]   --> [41% - 60%]   --> [61% - 80%]   --> [81% - 100%]
-Dopamine Fog     Synaptic Spark    Prefrontal       Cognitive Flow     Neuroplastic
-                                   Rebound                             Mastery (WIN!)
+[Stage 1: 0%–24%] ──▶ [Stage 2: 25%–44%] ──▶ [Stage 3: 45%–64%] ──▶ [Stage 4: 65%–84%] ──▶ [Stage 5: 85%–100%]
+  Dopamine Fog          Synaptic Spark        Prefrontal Rebound      Cognitive Flow        Neuroplastic Mastery
+  (Floor: 0%)           (Floor: 25%)           (Floor: 45%)           (Floor: 65%)          (Floor: 85% | WIN: 100%)
 ```
 
 ---
 
 # 2. NEUROSCIENCE RESEARCH: PORNOGRAPHY, EXECUTIVE FUNCTION, AND LINGUISTICS
 
-To ensure that *REWIRED* is educational, respectful, and scientifically valid, its gameplay systems are anchored directly in published peer-reviewed neuroscience and neuropsychological literature.
+To ensure that *REWIRED* is educational, empathetic, and scientifically valid, its gameplay systems are anchored directly in published peer-reviewed neuroscience and neuropsychological literature.
 
 ```
        +-------------------------------------------------------+
        |            CHRONIC COMPULSIVE EXPOSURE                |
-       |  (High-frequency internet pornography & screen loops)  |
+       |  (High-frequency internet pornography & screen loops) |
        +---------------------------+---------------------------+
                                    |
          +-------------------------+-------------------------+
@@ -95,7 +77,7 @@ To ensure that *REWIRED* is educational, respectful, and scientifically valid, i
          v                                                   v
 +-----------------------------+             +-------------------------------+
 |     STRIATAL ADAPTATION     |             |    PREFRONTAL HYPOFRONTALITY  |
-| Downregulation of D2 Dopamine|             | Weakened top-down regulation  |
+| Downregulation of D2 Dopamine|            | Weakened top-down regulation  |
 | Receptors (Kühn & Gallinat) |             | from DLPFC to reward centers  |
 +--------------+--------------+             +---------------+---------------+
                |                                            |
@@ -114,624 +96,471 @@ To ensure that *REWIRED* is educational, respectful, and scientifically valid, i
                  +---------------------------------------+
                  |     TARGET OF REWIRED GAMEPLAY:       |
                  |  Synaptic Strengthening through Active|
-                 |  Semantic Retrieval & Neuroplasticity |
+                 |  Semantic Network Matching (Exact +   |
+                 |  Family Echo Links) & Neuroplasticity |
                  +---------------------------------------+
 ```
 
 ### 2.1 The Prefrontal-Striatal Axis & Dopaminergic Desensitization
-The human reward circuit centers on dopaminergic projections from the ventral tegmental area (VTA) to the **nucleus accumbens** and the broader **striatum (caudate nucleus and putamen)**. This system evolved to reward survival-critical behaviors (food acquisition, social bonding, physical intimacy). 
+The human reward circuit centers on dopaminergic projections from the ventral tegmental area (VTA) to the **nucleus accumbens** and the broader **striatum (caudate nucleus and putamen)**. Modern internet pornography acts as a **supernormal stimulus** (Tinbergen, 1951; Love et al., 2015), delivering an unnatural density of novel cues.
 
-Modern internet pornography acts as a **supernormal stimulus** (Tinbergen, 1951; Love et al., 2015), delivering an unnatural density of novel sexual cues with zero physical effort. 
-
-In a landmark neuroimaging investigation published in *JAMA Psychiatry*, **Kühn & Gallinat (2014)** evaluated 64 healthy adult males with varying hours of pornography consumption using structural MRI (voxel-based morphometry) and functional MRI (fMRI):
-1. **Striatal Grey Matter Reduction:** A significant negative correlation was discovered between hours of weekly pornography consumption and grey matter volume in the right caudate of the striatum ($p < 0.001$).
-2. **Attenuated Reward Reactivity:** Heavier consumers exhibited reduced hemodynamic activation in the left putamen during the presentation of appetitive stimuli, indicating dopaminergic desensitization (tolerance).
-3. **Decoupled Prefrontal Connectivity:** Functional connectivity between the right caudate and the **left dorsolateral prefrontal cortex (DLPFC)** was significantly attenuated in heavier consumers.
-
-The DLPFC acts as the primary "brake" of the human brain, responsible for executive control, forward planning, and conscious inhibition of impulses. When fronto-striatal functional connectivity is eroded, top-down executive oversight diminishes, leading to compulsive loops and diminished willpower.
+In a landmark neuroimaging study published in *JAMA Psychiatry*, **Kühn & Gallinat (2014)** evaluated 64 healthy adult males using structural MRI (voxel-based morphometry) and functional MRI (fMRI):
+1. **Striatal Grey Matter Reduction:** A significant negative correlation was found between weekly hours of pornography consumption and grey matter volume in the right caudate of the striatum ($p < 0.001$).
+2. **Attenuated Reward Reactivity:** Heavier consumers showed reduced activation in the left putamen during sexual cue-reactivity tasks, indicating dopaminergic desensitization.
+3. **Decoupled Prefrontal Connectivity:** Functional connectivity between the right caudate and the **left dorsolateral prefrontal cortex (DLPFC)** was significantly reduced. Because the DLPFC serves as the brain's executive "braking system," weakened fronto-striatal coupling makes it harder to regulate sudden urges.
 
 ### 2.2 Working Memory & Attentional Degradation (The Laier & Brand Findings)
-Working memory (WM) is the cognitive buffer that allows the brain to hold, manipulate, and update transient information. It is indispensable for reading comprehension, problem-solving, and conversational spontaneity.
+Working memory (WM) is the cognitive buffer that holds and manipulates information in real time. In a foundational study published in *The Journal of Sex Research*, **Laier, Schulte, & Brand (2013)** tested participants on a **4-back working memory task** across neutral, positive, negative, and pornographic picture conditions:
+- **Results:** Working memory accuracy plummeted significantly during the pornographic condition compared to all other conditions ($F = 18.72, p < 0.001$).
+- **Cognitive Implication:** High-arousal digital cues hijack finite prefrontal attentional bandwidth, creating the acute mental sluggishness colloquially termed "brain fog."
 
-In a foundational study published in *The Journal of Sex Research*, **Laier, Schulte, & Brand (2013)** investigated how pornographic picture processing impacts working memory performance:
-- Participants completed a computerized continuous pictorial **4-back working memory task** under four distinct experimental conditions: neutral pictures, positive emotional pictures, negative emotional pictures, and pornographic pictures.
-- **Results:** Working memory accuracy and discriminability ($d'$) plummeted significantly during the pornographic condition compared to all other conditions ($F = 18.72, p < 0.001$).
-- **Arousal-Urge Moderation:** The degree of working memory deficit was directly predicted by subjective sexual arousal ratings and moderated by compulsive urges.
-- **Cognitive Implication:** Processing supernormal sexual stimuli hijacks finite prefrontal attentional resources. The immediate aftereffect—frequently reported colloquially in recovery forums as "brain fog"—is an acute state of executive cognitive exhaustion.
-
-### 2.3 The Linguistic Impact: Why Digital Addiction Impairs Word Retrieval & Verbal Fluency
-Language production is among the most metabolically demanding tasks executed by the human brain. While linguistic structures are traditionally attributed to **Broca's area** (left inferior frontal gyrus, Brodmann Areas 44/45 for speech production and syntactic assembly) and **Wernicke's area** (posterior superior temporal gyrus, Brodmann Area 22 for lexical-semantic storage), modern cognitive neuroscience reveals that fluid verbal communication requires extensive **prefrontal executive orchestration**:
-
-```
-[Wernicke's Area]  ---> Semantic Storage ("Mental Dictionary")
-       ^
-       | (Arcuate Fasciculus)
-       v
-[Broca's Area]     ---> Phonetic Assembly & Syntactic Construction
-       ^
-       | (Frontal-Subcortical Loops)
-       v
-[DLPFC & ACC]      ---> Executive Search, Working Memory, Error Monitoring,
-                        and Inhibition of Irrelevant/Intrusive Thoughts
-```
-
-When an individual suffers from chronic executive fatigue and dopaminergic desensitization:
-1. **Semantic Search Retardation:** In standard neuropsychological testing (e.g., the Controlled Oral Word Association Test / COWAT), individuals must access semantic networks, hold previously retrieved words in working memory, and suppress non-target words. A compromised DLPFC slows lexical access speed, causing frequent *anomia* (tip-of-the-tongue phenomenon).
-2. **Loss of Syntactic Complexity:** Passive, low-effort digital media consumption shifts brain activity away from active generative verbalization toward passive sensory consumption. The brain adapts to monosyllabic, rapid, image-based stimuli, degrading the user's natural inclination to articulate nuanced vocabulary.
-3. **Attentional Intrusion & Conversational Drifting:** Impaired anterior cingulate cortex (ACC) monitoring makes it difficult to maintain an uninterrupted train of thought during complex verbal discourse.
+### 2.3 The Linguistic Impact: Semantic Networks & Lexical Retrieval
+In cognitive neuroscience, words are not stored in the brain as isolated dictionary entries; they are organized in **associative semantic networks** (Collins & Loftus, 1975) within the temporal cortex (**Wernicke's area** / middle temporal gyrus) and retrieved via executive search pathways controlled by the **DLPFC** and **inferior frontal gyrus (Broca's area)**.
+- When prefrontal executive function is fatigued by chronic digital overstimulation, spreading activation across semantic networks slows down, causing frequent *anomia* (tip-of-the-tongue word loss) and reduced verbal fluency.
+- Conversely, **clustering words into semantic families** (recognizing both exact definitions and closely related sibling concepts) directly exercises spreading activation across temporal-frontal pathways! This is the neurobiological inspiration for *REWIRED*'s **20-Family "Synaptic Web" (Exact + Echo Link)** system.
 
 ### 2.4 The I-PACE Theoretical Model (Brand et al., 2016, 2019)
-The **I-PACE (Interaction of Person-Affect-Cognition-Execution)** model, formulated by Matthias Brand and colleagues (*Addictive Behaviors*, 2016; *Frontiers in Psychiatry*, 2019), provides the overarching clinical framework for behavioral addictions:
-- **P (Person):** Neurobiological baseline, personality predispositions, stress coping mechanisms.
-- **A (Affect):** Negative affective states, loneliness, boredom, emotional dysregulation.
-- **C (Cognition):** Cognitive biases, cue-reactivity, implicit positive expectancies of relief.
-- **E (Execution):** **Executive functions, specifically inhibitory control and working memory.**
+The **I-PACE (Interaction of Person-Affect-Cognition-Execution)** model (*Addictive Behaviors*, 2016; *Frontiers in Psychiatry*, 2019) demonstrates that while affective triggers (stress, boredom, isolation) initiate cravings, **executive functions (working memory, attentional shifting, and cognitive evaluation)** act as the primary moderator capable of breaking the compulsive loop.
 
-In the early stages, behavior is driven by reward sensitivity (ventral striatum). In compulsive stages, executive control mechanisms (DLPFC) deteriorate, and behavior shifts to habitual, cue-triggered compulsion (dorsal striatum). Crucially, the I-PACE model emphasizes that **executive functions can be trained, buffered, and restored**.
-
-### 2.5 Neuroplasticity & Cognitive Recovery via Verbal Games
-The adult human brain retains **experience-dependent neuroplasticity** throughout the entire lifespan (Klingberg, 2010; Park & Bischof, 2013). Synaptic connections are dynamically pruned or fortified based on usage (Hebbian theory: *"neurons that fire together, wire together"*):
-- **Cognitive Reserve Enhancement:** Engaging in structured lexical-semantic puzzles, verbal fluency challenges, and synonym association stimulates dendritic arborization across the left hemisphere's language network and prompts bilateral prefrontal recruitment (Diamond, 2013).
-- **Executive Inhibitory Retraining:** In board games where players must suppress obvious, repetitive, or incorrect words to identify precise synonyms and definitions, the DLPFC is repeatedly challenged to exert top-down inhibition.
-- **Social Dopamine Resensitization:** Replacing solitary screen-based gratification with face-to-face tabletop socialization, laughter, and mutual encouragement triggers endogenous release of oxytocin and natural dopamine, helping restore healthy striatal baseline sensitivities (Volkow et al., 2011).
-
-### 2.6 Academic References & Peer-Reviewed Literature
-1. **Kühn, S., & Gallinat, J. (2014).** Brain structure and functional connectivity associated with pornography consumption: The brain on porn. *JAMA Psychiatry*, 71(7), 827-834.
-2. **Laier, C., Schulte, F. P., & Brand, M. (2013).** Pornographic picture processing interferes with working memory performance. *The Journal of Sex Research*, 50(7), 642-652.
-3. **Brand, M., Young, K. S., Laier, C., Wölfling, K., & Potenza, M. N. (2016).** Integrating psychological and neurobiological considerations regarding Internet addiction based on the I-PACE model. *Neuroscience & Biobehavioral Reviews*, 71, 252-266.
-4. **Brand, M., Wegmann, E., Stark, R., Müller, A., Wölfling, K., Zheng, Y., & Potenza, M. N. (2019).** The Interaction of Person-Affect-Cognition-Execution (I-PACE) model for addictive behaviors: An update. *Frontiers in Psychiatry*, 10, 398.
-5. **Voon, V., Mole, T. B., Banca, P., Porter, L., Morris, L., Mitchell, S., ... & Irvine, M. (2014).** Neural correlates of sexual cue reactivity in individuals with and without compulsive sexual behaviours. *PLOS ONE*, 9(7), e102419.
-6. **Diamond, A. (2013).** Executive functions. *Annual Review of Psychology*, 64, 135-168.
-7. **Ardila, A. (2010).** A proposed neurofunctional model of language. *Cognitive Neuropsychology*, 27(4), 363-380.
-8. **Park, D. C., & Bischof, G. N. (2013).** The aging mind: Neuroplasticity and cognitive reserve. *Dialogues in Clinical Neuroscience*, 15(1), 109-119.
-9. **Klingberg, T. (2010).** Training and plasticity of working memory. *Trends in Cognitive Sciences*, 14(7), 317-324.
-10. **Volkow, N. D., Wang, G. J., Fowler, J. S., Tomasi, D., & Telang, F. (2011).** Addiction: Beyond dopamine reward circuitry. *Proceedings of the National Academy of Sciences*, 108(37), 15037-15042.
+### 2.5 Academic References & Peer-Reviewed Literature
+1. **Kühn, S., & Gallinat, J. (2014).** Brain structure and functional connectivity associated with pornography consumption: The brain on porn. *JAMA Psychiatry*, 71(7), 827–834.
+2. **Laier, C., Schulte, F. P., & Brand, M. (2013).** Pornographic picture processing interferes with working memory performance. *The Journal of Sex Research*, 50(7), 642–652.
+3. **Brand, M., Young, K. S., Laier, C., Wölfling, K., & Potenza, M. N. (2016).** Integrating psychological and neurobiological considerations regarding Internet addiction based on the I-PACE model. *Neuroscience & Biobehavioral Reviews*, 71, 252–266.
+4. **Brand, M., Wegmann, E., Stark, R., et al. (2019).** The Interaction of Person-Affect-Cognition-Execution (I-PACE) model for addictive behaviors: An update. *Frontiers in Psychiatry*, 10, 398.
+5. **Collins, A. M., & Loftus, E. F. (1975).** A spreading-activation theory of semantic processing. *Psychological Review*, 82(6), 407–428.
+6. **Voon, V., Mole, T. B., Banca, P., et al. (2014).** Neural correlates of sexual cue reactivity in individuals with and without compulsive sexual behaviours. *PLOS ONE*, 9(7), e102419.
+7. **Diamond, A. (2013).** Executive functions. *Annual Review of Psychology*, 64, 135–168.
+8. **Ardila, A. (2010).** A proposed neurofunctional model of language. *Cognitive Neuropsychology*, 27(4), 363–380.
+9. **Park, D. C., & Bischof, G. N. (2013).** The aging mind: Neuroplasticity and cognitive reserve. *Dialogues in Clinical Neuroscience*, 15(1), 109–119.
+10. **Klingberg, T. (2010).** Training and plasticity of working memory. *Trends in Cognitive Sciences*, 14(7), 317–324.
 
 ---
 
 # 3. COMPARATIVE BOARD GAME INDUSTRY ANALYSIS
 
-To ensure *REWIRED* is deeply enjoyable, accessible, and mechanically robust, we examined the highest-rated word and matching board games in the modern tabletop industry.
-
-| Game | Designer | Primary Mechanics | Strengths & Fun Factor | Pitfalls to Avoid | How REWIRED Adapts & Improves It |
+| Game | Designer | Primary Mechanics | Strengths & Fun Factor | Pitfalls to Avoid | How REWIRED v4 Adapts & Improves It |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Codenames** | Vlaada Chvátil | Clue-Giving, Grid Association, Deduction | Thrilling "aha!" moments when one clue connects 3 cards. High table talk. | Downtime if the clue-giver overthinks (Analysis Paralysis). | REWIRED keeps clues fast: players match individual words to open meanings on a dynamic shared board. |
-| **Paperback / Hardback** | Tim Fowers | Deck-Building, Letter Hand Management | Sense of growth; upgrading letters gives economic & victory power. | Spelling long words can intimidate casual players with limited vocab. | REWIRED focuses on *semantic recognition* and *usage in sentences*, not letter-tile anagram spelling. |
-| **Balderdash** | Laura Robinson & Paul Toyne | Bluffing, Definition Guessing, Creative Writing | Hysterically funny; players invent plausible-sounding fake definitions. | Scoring can feel arbitrary; requires a dedicated reader who doesn't play that turn. | REWIRED uses real high-yield vocabulary with humorous context sentences, verifiable by self-checking IDs. |
-| **So Clover!** | François Romain | Cooperative Grid Association, Lateral Thinking | Seamless cooperative deduction; zero downtime; highly portable. | Purely cooperative; lacks personal progression tracking. | REWIRED adapts the "semantic bridge" concept into its dual-synonym matching system while keeping individual progression boards. |
-| **Just One** | Ludovic Roudy & Bruno Sautter | Simultaneous Clue Selection, Clue Elimination | Eliminating duplicate clues forces non-obvious vocabulary retrieval. | Very light; lacks an overarching campaign or tangible sense of personal upgrading. | REWIRED incorporates "Support Circle" mechanics where players can assist each other with creative context clues. |
-| **Taboo** | Brian Hersch | Inhibitory Speech, Verbal Description | Direct prefrontal workout! Forces players to bypass standard neural pathways. | Can feel stressful or chaotic with loud buzzer timers. | REWIRED adopts the verbal fluency challenge (constructing an original sentence) within a supportive, relaxed turn structure. |
-| **Decrypto** | Thomas Dagenais-Lespérance | Code Interception, Semantic Encryption | Brilliant thematic tension; subtle synonym manipulation. | Steep rules learning curve for casual parties. | REWIRED keeps rules simple: Match -> Verify -> Articulate -> Advance Tracker. |
+| **Codenames** | Vlaada Chvátil | Clue-Giving, Semantic Association | Thrilling "aha!" moments connecting related words on a shared grid. | High pressure on a single clue-giver; analysis paralysis. | Uses a shared **6-card Meaning Row** where every player matches from their own hand using **Exact** or **Family Echo** links. |
+| **Paperback / Hardback** | Tim Fowers | Deck-Building, Hand Progression | Tangible sense of mental growth as your deck and hand improve. | Anagram spelling intimidates A1–B1 learners. | Focuses on **A1–B1 semantic recognition** rather than spelling; advancing Stages increases Hand Size (4 $\rightarrow$ 5 $\rightarrow$ 6) and Echo power. |
+| **Decrypto / Clue** | Thomas Dagenais-Lespérance | Hidden Information & Physical Verification | Tactile delight of using physical decoder screens to reveal secret answers. | Complex team rules. | Uses a **Red Acrylic Decoder Lens** over a camouflaged strip on Clue cards for instant, tactile, dispute-free verification and secret Study peeks. |
+| **So Clover!** | François Romain | Semantic Family Grouping | Grouping words by shared thematic neighborhoods feels natural and rewarding. | Purely cooperative; lacks personal progression race. | Organizes the 80-card Lexicon into **20 Semantic Families of 4 words each**, allowing both Exact Links and Family Echo Links. |
+| **Balderdash** | Robinson & Toyne | Definitions & Context | Humorous example sentences make learning definitions joyful. | Writing fake definitions in English is too hard for A1–B1 learners. | Provides printed, relatable fill-in-the-blank context frames on every Clue card (**"Read the Frame"**) with zero writing or speaking stress. |
 
 ---
 
-# 4. GAME ARCHITECTURE & COMPONENTS
+# 4. GAME ARCHITECTURE & COMPONENTS (v4 STREAMLINED)
 
 ```
-+--------------------------------------------------------------------------+
-|                             TABLETOP SETUP                               |
-+--------------------------------------------------------------------------+
-|                                                                          |
-|   +-----------------------+              +-----------------------+       |
-|   |   PLAYER 1 TRACKER    |              |   PLAYER 2 TRACKER    |       |
-|   |  [🧠 40% - Rebound]   |              |  [🧠 20% - The Fog]   |       |
-|   +-----------------------+              +-----------------------+       |
-|                                                                          |
-|                  +-----------------------------------+                   |
-|                  |     CENTRAL SYNAPTIC DISPLAY      |                   |
-|                  |                                   |                   |
-|                  |  [WORD 1]  [WORD 2]  [WORD 3]     |                   |
-|                  |  [CLUE 1]  [CLUE 2]  [CLUE 3]     |                   |
-|                  |                                   |                   |
-|                  |  [Lexicon]   [Cognitive]  [Habit] |                   |
-|                  |   Deck          Deck       Deck   |                   |
-|                  +-----------------------------------+                   |
-|                                                                          |
-|   +-----------------------+              +-----------------------+       |
-|   |   PLAYER 3 TRACKER    |              |   PLAYER 4 TRACKER    |       |
-|   |  [🧠 60% - Flow]      |              |  [🧠 10% - The Fog]   |       |
-|   +-----------------------+              +-----------------------+       |
-|                                                                          |
-+--------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+|                              TABLETOP SETUP (v4)                                |
++---------------------------------------------------------------------------------+
+|                                                                                 |
+|   +-------------------------+                     +-------------------------+   |
+|   |    PLAYER 1 TRACKER     |                     |    PLAYER 2 TRACKER     |   |
+|   | [🧠 45% - Stage 3]      |                     | [🧠 25% - Stage 2]      |   |
+|   | Hand Limit: 5 | Floor:45|                     | Hand Limit: 5 | Floor:25|   |
+|   +-------------------------+                     +-------------------------+   |
+|                                                                                 |
+|         +-------------------------------------------------------------+         |
+|         |              CENTRAL MEANING ROW (6 Face-Up Clues)          |         |
+|         |                                                             |         |
+|         |  [CLUE 1]  [CLUE 2]  [CLUE 3]  [CLUE 4]  [CLUE 5]  [CLUE 6] |         |
+|         |  (Oldest)                                          (Newest) |         |
+|         |                                                             |         |
+|         |   [Lexicon Draw Deck]    [Clue Draw Deck]    [Habit Deck]   |         |
+|         |   (80 Words + 15 Opp)       (80 Clues)        (40 Events)   |         |
+|         |                                                             |         |
+|         |              🔍 [2x Red Acrylic Decoder Lenses]             |         |
+|         +-------------------------------------------------------------+         |
+|                                                                                 |
+|   +-------------------------+                     +-------------------------+   |
+|   |    PLAYER 3 TRACKER     |                     |    PLAYER 4 TRACKER     |   |
+|   | [🧠 65% - Stage 4]      |                     | [🧠 15% - Stage 1]      |   |
+|   | Hand Limit: 6 | Floor:65|                     | Hand Limit: 4 | Floor: 0|   |
+|   +-------------------------+                     +-------------------------+   |
+|                                                                                 |
++---------------------------------------------------------------------------------+
 ```
 
-### 4.1 Component Manifest
-1. **4 Dual-Layer Brain Progression Boards:** Premium punchboard with indented slots from 0% to 100% in 5% increments.
-2. **4 Wooden Brain Icon Markers:** Move along the progression track to show current recovery status.
-3. **80 Lexicon Cards (The Word Deck):** Divided into 3 Tiers (Tier 1: Vital/Accessible, Tier 2: Eloquent, Tier 3: Mastermind).
-4. **80 Cognitive Clue Cards (The Meaning & Synonym Deck):** Self-verifying definitions, two synonyms, and context clues.
-5. **40 Habit Loops & Triggers Cards (The Life Events Deck):** Relapse risk setbacks, healthy keystone habits, urge-surfing shields, and circle actions.
-6. **16 Urge Surfing Tokens:** Acrylic shield tokens kept by players to block incoming relapse triggers.
-7. **1 Sand Timer (30 Seconds):** For the optional "Verbal Fluency Sprint" mode.
-8. **1 Support Circle Token (First Player Marker):** A coffee mug icon representing the weekly gathering.
-9. **1 Rulebook & Comprehensive Neuro-Lexicon Glossary.**
+### 4.1 Complete Component Manifest
+*(Note: Shield Tokens and Safe Cards have been completely removed in v4 for cleaner, faster tabletop flow.)*
+1. **4 Dual-Layer Brain Progression Boards:** Marked from `0%` to `100%` in `5%` increments, with clearly highlighted **Stage Floor locks** at `0%`, `25%`, `45%`, `65%`, and `85%`.
+2. **4 Wooden Brain Icon Markers:** Track each player's recovery percentage.
+3. **80 Lexicon Word Cards (CEFR A1–B1):** Organized into **20 Semantic Families** (4 words per family: 30 A1 words, 30 A2 words, 20 B1 words).
+4. **15 Opportunity Cards:** Shuffled directly into the Lexicon Deck (`10x Life Happens` and `5x Double or Nothing`).
+5. **80 Cognitive Clue Cards:** Featuring an A1–B1 definition, a fill-in-the-blank context sentence, and a camouflaged **Red Decoder Strip** at the bottom.
+6. **40 Habit Loops & Triggers Cards:** Kept in a separate face-down deck; flipped whenever an Opportunity Card is drawn (`18 Keystone Habits`, `14 Relapse Triggers`, `8 Support Circle Actions`).
+7. **2 Red Acrylic Decoder Lenses:** Red-tinted transparent magnifiers used to read the hidden Decoder Strip on Clue Cards during link verification and Study actions.
+8. **1 Rulebook & 20-Family Reference Guide.**
 
 ---
 
-### 4.2 The Dual-Layer Brain Progression Tracker (0%–100%)
-Each player's progression board features a custom illustration of a human brain with lighted neural pathways that illuminate as the player advances. The track contains 21 distinct pegs (0%, 5%, 10%, 15% ... up to 100%).
+### 4.2 The Brain Progression Tracker (0%–100%) & Stage Floors
+A core psychological truth of addiction recovery is that **a setback does not erase all of your prior neural healing**. 
+- Each of the 5 Stages on the Brain Progression Board begins with a **Stage Floor (`0%`, `25%`, `45%`, `65%`, `85%`)**.
+- Whenever a normal Relapse Trigger reduces your progression (`-5%` or `-10%`), your marker **cannot drop below the Stage Floor of your current Stage**!
+- *Exception:* If you choose to gamble on a **Double or Nothing** Opportunity card and lose, the doubled penalty **ignores your Stage Floor** and can drop you into a lower Stage.
 
-Every 20% milestone represents a clinically distinct stage of cognitive recovery, unlocking passive perks that simulate prefrontal neuroplasticity:
+### 4.3 The Five Cognitive Stages & Milestone Perks
 
-```
-[0% - 20%] -------------> STAGE 1: THE DOPAMINE FOG
-Hand Limit: 3 Cards. 
-Description: Mental exhaustion, fragmented focus, lethargic verbal retrieval.
-Perk: None. (Survive the fog and establish your baseline!).
-
-[21% - 40%] ------------> STAGE 2: SYNAPTIC SPARK
-Hand Limit: 4 Cards (Increased cognitive buffer).
-Description: Flickers of clarity. The prefrontal cortex begins asserting impulse control.
-Perk: "Cognitive Expansion" — You may now hold 4 cards in your active hand.
-
-[41% - 60%] ------------> STAGE 3: PREFRONTAL REBOUND
-Hand Limit: 4 Cards + 1 Shield Slot.
-Description: Executive control re-establishes top-down regulation over the striatum.
-Perk: "Urge Surfing Mastery" — Automatically gain 1 free Urge Surfing Token upon reaching 41%. 
-      You can now store up to 2 Urge Surfing shields.
-
-[61% - 80%] ------------> STAGE 4: COGNITIVE FLOW
-Hand Limit: 5 Cards + 2 Shield Slots.
-Description: Rapid lexical retrieval, sharp working memory, robust emotional resilience.
-Perk: "Dual-Synonym Combo" — When making a Neuro-Link, if you can identify TWO matching 
-      synonyms from the display, gain +15% progression instead of +10%.
-
-[81% - 100%] -----------> STAGE 5: NEUROPLASTIC MASTERY
-Hand Limit: 5 Cards + 2 Shield Slots.
-Description: Optimal executive functioning, rich vocabulary, fully restored baseline.
-Victory Condition: The first player to reach 100% wins the game immediately!
-```
+| Stage | Progress Range | Stage Floor | Brain State Description | Hand Limit | Active Milestone Perk |
+| :---: | :---: | :---: | :--- | :---: | :--- |
+| **Stage 1** | **0% – 24%** | **0%** | **The Dopamine Fog:** Scattered attention, sluggish word recall, heavy screen cravings. | **4 Cards** | *Baseline:* Use Exact Links, Echo Links, or the Study Action to break out of the fog. |
+| **Stage 2** | **25% – 44%** | **25%** | **Synaptic Spark:** First waves of clarity; working memory buffer expands. | **5 Cards** | **Working Memory Expansion:** Your hand limit increases from 4 to **5 Word Cards**. |
+| **Stage 3** | **45% – 64%** | **45%** | **Prefrontal Rebound:** Executive control reconnects; semantic associations fire faster. | **5 Cards** | **Synaptic Resonance:** Every **Echo Link** (family match) you make now grants an extra **+5% bonus progression**! |
+| **Stage 4** | **65% – 84%** | **65%** | **Cognitive Flow:** Sharp focus, effortless recall, strong emotional grounding. | **6 Cards** | **Deep Study & Flow:** Hand limit increases to **6 Word Cards**. When taking the **Study Action**, you may secretly inspect **2 Clue Cards** with the Red Lens instead of 1! |
+| **Stage 5** | **85% – 100%** | **85%** | **Neuroplastic Mastery:** Peak mental clarity and executive vitality. | **6 Cards** | **Victory Threshold:** Reaching **100%** triggers the end of the game (finish the current round so all players take equal turns)! |
 
 ---
 
-# 5. CORE GAMEPLAY MECHANICS & SYSTEMS
+# 5. CORE GAMEPLAY MECHANICS: THE "SYNAPTIC WEB" & RED DECODER LENS
 
-### 5.1 The Synaptic Display (Central Market)
-The center of the table houses the **Synaptic Display**, representing the collective mental workspace of the Support Circle. It consists of:
-- **The Lexicon River:** 3 face-up Lexicon Cards.
-- **The Cognitive Clue River:** 3 face-up Cognitive Clue Cards.
-- **The 3 Draw Decks:** Lexicon Deck, Cognitive Clue Deck, Habit Loops & Triggers Deck.
+### 5.1 The 20 Word Families Architecture (80 A1–B1 Words)
+In early prototypes, matching 1 exact word out of 80 to a small row of clues caused frequent "dead turns" where no player held a matching card.
 
-### 5.2 Turn Structure (3-Phased Loop)
-Players take turns in clockwise order. On a player's turn, they execute three consecutive phases:
+In **REWIRED v4**, the 80 Lexicon Word Cards and 80 Cognitive Clue Cards are organized into **20 Semantic Word Families**, with **4 closely related words in each family**:
+- **10 Families** contain: `2x A1 words` + `1x A2 word` + `1x B1 word`
+- **10 Families** contain: `1x A1 word` + `2x A2 words` + `1x B1 word`
+- **Total Deck Composition:** **30 A1 Words** (Foundation), **30 A2 Words** (Developing), **20 B1 Words** (Independent).
+
+> **Note on Card Faces:** Word Cards show the **Word**, its **CEFR Tier (`A1`, `A2`, `B1`)**, its **Part of Speech**, and a short helpful example phrase—**they do NOT print the Family Name** on the front, so players must use genuine semantic understanding (or insights gained from the Study Action) to connect words to clues!
+
+---
+
+### 5.2 Exact Links vs. Echo (Family) Links
+Because every Clue Card belongs to a 4-word Semantic Family, any Word Card in your hand can connect to **four different Clue Cards** in the deck:
+1. **Exact Link (1-to-1 Match):** Your Word Card is the **exact word** defined by the Clue Card.
+   - **A1 Word Exact Link:** **+10% Progression**
+   - **A2 Word Exact Link:** **+15% Progression**
+   - **B1 Word Exact Link:** **+20% Progression**
+2. **Echo Link (Same Semantic Family Match):** Your Word Card is **one of the other 3 sibling words** in the same Semantic Family as the Clue Card!
+   - **A1 Word Echo Link:** **+5% Progression** *(+10% if you are in Stage 3+)*
+   - **A2 / B1 Word Echo Link:** **+10% Progression** *(+15% if you are in Stage 3+)*
 
 ```
-+---------------------------------------------------------------+
-| PHASE 1: COGNITIVE REFRESH & HABIT CHECK                      |
-| - Draw up to your current Hand Limit.                         |
-| - If a "Habit Loop" card is drawn, resolve its effect.        |
-+-------------------------------+-------------------------------+
-                                |
-                                v
-+---------------------------------------------------------------+
-| PHASE 2: FORGE A NEURO-LINK (CORE ACTION)                     |
-| Choose ONE action:                                            |
-|   A) Direct Match: Match 1 Word with 1 Clue Card (+10%).      |
-|   B) Synonym Combo: Match 1 Word with 2 Synonyms (+15%).      |
-|   C) Study & Restructure: Discard unwanted cards & draw 2.    |
-|   D) Support Circle Assist: Ask an ally for a hint (+5% each).|
-+-------------------------------+-------------------------------+
-                                |
-                                v
-+---------------------------------------------------------------+
-| PHASE 3: VERIFICATION & BROCA'S ACTIVATION                    |
-| - Check the Synaptic ID on cards.                             |
-| - Construct an original sentence using the word.              |
-| - Advance Brain Tracker & refill the central display.         |
-+---------------------------------------------------------------+
+EXAMPLE — FAMILY #03 (HAPPINESS & JOY):
+Words in Family:  [Happy (A1)]  •  [Glad (A1)]  •  [Cheerful (A2)]  •  [Delighted (B1)]
+
+Suppose a Clue Card on the table reads:
+"Bright, pleasant, and noticeably happy in the way you act and smile." (Target: CHEERFUL)
+
+• Play [Cheerful (A2)]  ──▶ EXACT LINK! (+15% Progression)
+• Play [Happy (A1)]     ──▶ ECHO LINK!  (+5% Progression, or +10% in Stage 3+)
+• Play [Delighted (B1)] ──▶ ECHO LINK!  (+10% Progression, or +15% in Stage 3+)
 ```
 
----
-
-### 5.3 The Neuro-Link Engine (Matching & Verification)
-A major challenge in traditional word games is dispute resolution—players argue over whether a word fits a definition, or struggle with dry dictionary jargon. 
-
-*REWIRED* solves this through an elegant **Synaptic ID Verification System**:
-- Every Lexicon Card has a small, discreet **Synaptic ID Number** (e.g., `#27`) and a **Neural Color Band** (Cyan for Cognitive, Amber for Emotional, Emerald for Behavioral, Violet for Philosophical).
-- The corresponding Cognitive Clue Card shares the exact same Synaptic ID `#27` on its bottom-right corner.
-- **How Matching Works:**
-  1. The player spots a potential pair (e.g., *Resilience* from their hand or display, and *"The capacity to recover quickly from difficulties; toughness"* from the display).
-  2. The player announces the match to the table: *"I am linking Resilience to the definition of quick emotional and mental recovery!"*
-  3. The cards are revealed. If the Synaptic IDs match: **Link Successful!**
-  4. If the IDs do not match: The match fails. The cards remain in place, and the player loses their action for that phase (no progression loss, but turn ends). This ensures low frustration while encouraging genuine learning.
+This two-tier matching system guarantees that **A1 beginners can use simple words they already know (`Happy`, `Quiet`, `Tired`) to score Echo Links on harder B1 Clue Cards**, while learning the more advanced sibling words along the way!
 
 ---
 
-### 5.4 The Verbal Fluency Challenge (Broca’s Activation)
-Matching words on paper only exercises passive recognition (Wernicke's area). To achieve authentic neuroplastic recovery, players must engage active speech production (Broca's area)!
-
-When a Neuro-Link is verified as correct:
-1. The active player must read the word out loud.
-2. The player has 30 seconds to **construct an original, coherent sentence** that uses the word correctly in context!
-3. **The Support Circle Rule:** The other players act as the supportive audience. The sentence can be humorous, relatable to the recovery journey, or related to everyday life.
-   - *Example for "Ephemeral":* *"My urge to binge video games at 2 AM was ephemeral; after drinking a glass of cold water, it completely vanished."*
-4. Once the circle nods approval: Advance the Brain Marker by **+10%**!
-
----
-
-### 5.5 Support Circle Assist (Catch-Up & Zero Downtime)
-If a player is in Stage 1 or 2 (The Fog) and cannot find a match on the board:
-- They may call for a **"Support Circle Assist"**.
-- Any other player at the table may offer a **one-word thematic hint** (without saying the card names directly).
-- If the active player successfully finds the match using the hint:
-  - The active player advances **+5%**.
-  - The helpful teammate also advances **+5%** for being a great accountability partner!
-- This mechanic eliminates player elimination, prevents cognitive paralysis, and reinforces the warm, collaborative theme of a real recovery gathering.
-
----
-
-# 6. THE HABIT LOOPS & TRIGGERS SYSTEM (SPECIAL CARDS)
-
-In the user's initial concept, special cards allowed players to gain or lose progress (e.g., watching porn again = -10%, playing football with friends = +10%). 
-
-*REWIRED* transforms this concept into a deeply cohesive, psychologically authentic gameplay mechanic: **The Habit Loops & Triggers Deck**.
+### 5.3 The Red Acrylic Decoder Lens Verification System
+No player ever has to look up numbers in a booklet or argue over whether two words are synonyms. Every Cognitive Clue Card features a **Red-Speckled Decoder Strip** printed along the bottom edge:
 
 ```
-                   +-----------------------------+
-                   |     BEHAVIORAL HABIT LOOP   |
-                   +--------------+--------------+
-                                  |
-            +---------------------+---------------------+
-            |                                           |
-            v                                           v
-+-----------------------+                   +-----------------------+
-|  TRIGGER / RELAPSE    |                   |   KEYSTONE HEALTHY    |
-|  RISK (Setback: -10%) |                   |   HABIT (Boost: +10%) |
-+-----------+-----------+                   +-----------+-----------+
-            |                                           |
-    Can be blocked by:                         Instantly restores
-    [URGE SURFING SHIELD]                      executive energy!
++-----------------------------------------------------------------------+
+| COGNITIVE CLUE CARD                                                   |
+|                                                                       |
+| DEFINITION:                                                           |
+| "Feeling worried, nervous, or uneasy about something that might       |
+|  happen in the future."                                               |
+|                                                                       |
+| FILL-IN-THE-BLANK FRAME:                                              |
+| "Checking the news at midnight always makes me feel ________."        |
+|                                                                       |
+| +-------------------------------------------------------------------+ |
+| | ░░░░░░░░░░░░░░ [ RED CAMOUFLAGE DECODER STRIP ] ░░░░░░░░░░░░░░░░░ | |
+| | When covered with the RED DECODER LENS, reveals:                  | |
+| |   ★ EXACT WORD:  ANXIOUS (B1: +20%)                               | |
+| |   ◎ ECHO FAMILY: FEAR & WORRY — Afraid, Scared, Nervous           | |
+| +-------------------------------------------------------------------+ |
++-----------------------------------------------------------------------+
 ```
 
-### 6.1 Behavioral Science Foundation
-According to modern behavioral psychology (Duhigg, 2012; Clear, 2018), addictions are deeply rooted in automatic neurological loops:
-$$\text{Cue (Trigger)} \longrightarrow \text{Craving} \longrightarrow \text{Routine (Response)} \longrightarrow \text{Reward}$$
-Relapses rarely occur randomly; they are precipitated by environmental cues:
-- **H.A.L.T. Triggers:** Hungry, Angry, Lonely, Tired.
-- **Digital Traps:** Late-night smartphone doomscrolling, endless open tabs, algorithmic clickbait.
-- **Emotional Avoidance:** Using screens to numb work stress, boredom, or social anxiety.
-
-Conversely, recovery is sustained through **Keystone Habits**:
-- Physical exercise (football, weightlifting, running) which releases BDNF (Brain-Derived Neurotrophic Factor).
-- Genuine face-to-face social connection (oxytocin release).
-- Digital boundaries (leaving phones outside the bedroom).
-- Mindfulness & emotional regulation (Urge Surfing).
+- **How Verification Works:**
+  1. On your turn, place 1 Word Card from your hand next to 1 face-up Clue Card in the Meaning Row and announce your link.
+  2. Place the **Red Acrylic Decoder Lens** over the Clue Card's Decoder Strip.
+  3. **If your word is the `★ EXACT WORD`:** You score full Exact Link points (`+10%`, `+15%`, or `+20%`)! Both cards are discarded, and a new Clue Card is drawn into the Meaning Row.
+  4. **If your word is one of the 3 `◎ ECHO FAMILY` words:** You score Echo Link points (`+5%` or `+10%`, plus `+5%` if in Stage 3+)! Both cards are discarded, and a new Clue Card is drawn into the Meaning Row.
+  5. **If your word is neither:** The link fails. You take back your Word Card, the Clue Card stays on the table (and now everyone at the table has seen or heard a hint about that clue!), and your turn ends with no penalty.
 
 ---
 
-### 6.2 Trigger / Relapse Risk Cards (Setbacks)
-When a player draws a Trigger Card, it reflects a momentary lapse of executive control. 
-- The card inflicts a **-5% or -10% progression setback**.
-- **Crucial Rule:** A player's progression can *never drop below the baseline of their current Stage*. (For example, if you are at 45% in Stage 3, a -10% card will only reduce you to 41%, not drop you back into Stage 2). This embodies the psychological reality that *relapse does not erase all prior neural healing*!
+### 5.4 The Meaning Row (6 Cards) & End-of-Round Pruning
+- The central table display—called the **Meaning Row**—always holds **6 face-up Cognitive Clue Cards** arranged in a line from oldest (left) to newest (right).
+- Whenever a Clue Card is matched, it is discarded and a new Clue Card is added to the right end of the row.
+- **End-of-Round Pruning:** At the end of every full round (after all players have taken a turn), the **1 oldest Clue Card** on the far left of the Meaning Row is discarded and replaced with a fresh Clue Card on the right. This prevents difficult or unmatched clues from stagnating on the table.
 
-### 6.3 Keystone Healthy Habit Cards (Boosts)
-These represent proactive wellness choices that nourish the prefrontal cortex:
-- Instantly grant **+5%, +10%, or +15% progression**.
-- Encourage players to discuss real-world positive habits at the table.
+---
 
-### 6.4 The "Urge Surfing" Shield Mechanism
-In clinical psychology, **Urge Surfing** (developed by Dr. Alan Marlatt) is a mindfulness technique where an individual visualizes a craving as an ocean wave: instead of fighting it or giving in, you "surf" atop the wave until it naturally crests and dissipates within 15–20 minutes.
+### 5.5 Turn Structure (3-Phase Loop) & The "Study" Action
 
-- Players can acquire **Urge Surfing Tokens** through Stage perks or special cards.
-- A player may hold up to 2 Urge Surfing Tokens in their reserve.
-- When an active player draws a Relapse Trigger Card (e.g., *-10% Doomscrolling*), they can shout: **"Surfing the Urge!"** and discard 1 Token.
-- **Effect:** The negative setback is 100% neutralized! The player gains +5% bonus progression for exercising conscious top-down prefrontal inhibition!
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PHASE 1: HAND CHECK                                                     │
+│ • Verify your hand is at your current Stage Hand Limit (4, 5, or 6).    │
+│ • (If below limit, draw from Lexicon Deck, resolving Opportunity cards).│
+└────────────────────────────────────┬────────────────────────────────────┘
+                                     │
+                                     ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PHASE 2: CHOOSE ONE CORE ACTION                                         │
+│                                                                         │
+│   ACTION A — FORGE A NEURO-LINK (Exact or Echo Match):                  │
+│   • Pair 1 Word Card from your hand with 1 Clue Card in the Meaning Row.│
+│   • Place the Red Decoder Lens over the Clue's strip to verify.         │
+│   • Score Exact (+10/+15/+20%) or Echo (+5/+10%, +5% at Stage 3+).      │
+│   • Discard both matched cards and refill the Meaning Row to 6.         │
+│                                                                         │
+│   ACTION B — THE STUDY ACTION (Learn & Cycle Hand — Zero Dead Turns!):  │
+│   • Take the Red Decoder Lens and SECRETLY look at the Decoder Strip    │
+│     of 1 Clue Card in the Meaning Row (or 2 Clue Cards if in Stage 4+). │
+│   • You now know the Exact Word and all 3 Family Words for that Clue!   │
+│   • Then, you may discard up to 2 Word Cards from your hand and draw    │
+│     replacement cards from the Lexicon Deck.                            │
+└────────────────────────────────────┬────────────────────────────────────┘
+                                     │
+                                     ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PHASE 3: REFILL HAND & RESOLVE OPPORTUNITY CARDS                        │
+│ • Draw from the Lexicon Deck until your hand is back at your Hand Limit.│
+│ • If you draw an OPPORTUNITY CARD, resolve it immediately, then keep    │
+│   drawing until your hand is full of Word Cards!                        │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
-### 6.5 Interactive Support Circle Cards
-- **Accountability Partner:** Form a pact with an adjacent player. For the next round, whenever either of you makes a successful Neuro-Link, both players advance +5%.
-- **Digital Detox Weekend:** All players at the table place their real smartphone face-down in the center of the table. Every player who leaves their phone untouched until the end of the round gains +5%!
-- **Group Breakthrough:** A group trivia moment where all players must say one synonym for *"Strength"*. Everyone advances +5%!
+### 5.6 Optional "Read the Frame" & Advanced "Fluent Mode"
+- **Default A1–B1 Rule ("Read the Frame"):** Speaking original sentences from scratch can cause anxiety for A1–B1 learners. In standard play, after verifying a link with the Red Decoder Lens, the player simply **reads the printed fill-in-the-blank sentence frame aloud**, inserting their matched word. This provides low-stress pronunciation and context practice without scoring pressure.
+- **Optional "Fluent Mode" (For B2+ / Advanced Groups):** Players must invent an original spoken sentence using the matched word to claim the full Exact Link bonus.
+
+---
+
+# 6. THE OPPORTUNITY CARDS & HABIT LOOPS SYSTEM
+
+### 6.1 The 15 Opportunity Cards (Shuffled into the Lexicon Deck)
+Instead of rolling dice or drawing a mandatory event every round, **15 Opportunity Cards** are shuffled directly into the 80-card Lexicon Deck (creating a 95-card draw pile).
+
+Whenever a player draws from the Lexicon Deck (either after making a link or when swapping cards during a Study Action) and reveals an **Opportunity Card**, they pause, resolve the Opportunity Card immediately, discard it, and then draw a replacement card so their hand always reaches its full Word Card limit.
+
+Following Monte Carlo testing, the **"Safe Space" card has been completely removed**, leaving a tight, punchy **2-type Opportunity Card distribution**:
+
+| Opportunity Card Type | Quantity in Deck | Rules Text & Resolution Mechanics |
+| :--- | :---: | :--- |
+| **⚡ LIFE HAPPENS** *(Normal Opportunity)* | **10 Cards** | **"Daily life throws a curveball!"** Immediately flip the top card of the **Habit Loops Deck**, read it aloud, and resolve its effect. Then draw a replacement card from the Lexicon Deck. |
+| **🎲 DOUBLE OR NOTHING** *(High-Stakes Choice)* | **5 Cards** | **"A high-stakes moment of choice!"** *Before* looking at the Habit Deck, choose ONE:<br>• **Option A (Play It Safe):** Take a guaranteed **+5% Progression** right now (do not flip a Habit card).<br>• **Option B (Risk It — Double or Nothing):** Flip the top card of the Habit Loops Deck and **double** its percentage effect (`+10%` becomes `+20%`; `-10%` becomes `-20%`). **Warning:** Doubled losses **ignore your Stage Floor** and can drop you into a lower Stage! |
+
+---
+
+### 6.2 Behavioral Science Foundation (Cue $\rightarrow$ Craving $\rightarrow$ Routine $\rightarrow$ Reward)
+In behavioral psychology (Duhigg, 2012; Clear, 2018), recovery is shaped by how we respond to daily cues:
+- **H.A.L.T. Triggers (Hungry, Angry, Lonely, Tired):** Late-night isolation, unstructured boredom, and work stress trigger automatic dopamine-seeking routines.
+- **Keystone Healthy Habits:** Aerobic sports (mud football, running), cold showers, cooking offline meals, and genuine social laughter release natural endorphins, oxytocin, and BDNF (Brain-Derived Neurotrophic Factor).
+
+### 6.3 The 40-Card Habit Loops & Triggers Deck Breakdown
+With Shield Tokens removed, all 40 cards in the Habit Deck resolve **immediately** upon being flipped—zero token clutter, instant table drama!
+
+| Category | Count | Effect Breakdown | Example Cards |
+| :--- | :---: | :--- | :--- |
+| **🌟 Keystone Healthy Habits (Boosts)** | **18 Cards** | • `4x +15% Progression`<br>• `10x +10% Progression`<br>• `4x +5% Progression` | *Sunday Mud Football (+10%)*, *5K Morning Run (+15%)*, *Cold Shower Reset (+10%)*, *Cooked an Offline Meal (+5%)* |
+| **🛑 Relapse Triggers (Setbacks)** | **14 Cards** | • `7x -10% Progression`<br>• `7x -5% Progression`<br>*(Stopped by Stage Floor unless doubled!)* | *The 1:15 AM Bedroom Loop (-10%)*, *Deadline Stress Crash (-10%)*, *The Boredom Vacuum (-5%)*, *Algorithm Rabbit Hole (-5%)* |
+| **🤝 Support Circle Actions (Social)** | **8 Cards** | • `5x Accountability SOS` *(+5% to you AND +5% to the lowest-scoring player)*<br>• `3x Group Breakthrough` *(+5% to ALL players)* | *Accountability Text SOS (+5% pair)*, *Coffee Shop Study Buddy (+5% pair)*, *Weekly Circle High-Five (+5% all)* |
 
 ---
 
 # 7. COPYWRITING GUIDE & ETHICAL STANDARDS
 
-A foundational requirement for *REWIRED* is outstanding, witty, and compassionate copywriting while **strictly avoiding any content that is offensive, degrading towards specific genders, or trivializing of mental health problems**.
+A foundational requirement for *REWIRED* is engaging, funny, and memorable copywriting that **strictly avoids anything offensive, degrading toward any gender, or stigmatizing toward mental health challenges**.
 
-### 7.1 Strict Tone & Content Guidelines
-1. **Zero Misogyny & Zero Misandry:** The game never blames, objectifies, or stereotypes any gender. Addiction is framed as a universal neurobiological vulnerability to algorithmic supernormal stimuli, affecting people of all genders and walks of life.
-2. **De-Stigmatizing the Struggle:** Language frames compulsive habits not as "moral filth" or "weakness," but as **miswired dopamine pathways** that can be systematically trained and reconditioned through neuroplasticity.
-3. **Respect for Clinical Mental Health:** The game does not mock clinical depression, anxiety disorders, or neurodivergence (ADHD, autism). Instead, it celebrates dopamine stabilization, emotional grounding, and executive function scaffolding.
-4. **Humor Rooted in Relatability:** The humor comes from familiar, everyday digital absurdities: having 47 open browser tabs, promising to "just check the weather" at midnight, or feeling proud for drinking one glass of water.
-
-### 7.2 The Three Copywriting Pillars
-
-```
-+--------------------------------------------------------------------------+
-|                       THE 3 COPYWRITING PILLARS                          |
-+--------------------------------------------------------------------------+
-| 1. EMPATHETIC WARMTH:                                                    |
-|    "You slipped. It happens. Neural pathways don't vanish overnight,     |
-|     and neither does your progress. Stand up, dust off, and try again."  |
-+--------------------------------------------------------------------------+
-| 2. SHARP, WITTY OBSERVATION:                                             |
-|    "It is 1:43 AM. You opened your laptop to study Macroeconomics,       |
-|     yet somehow you are watching a 45-minute documentary on antique       |
-|     lawnmowers. Your prefrontal cortex has left the chat."               |
-+--------------------------------------------------------------------------+
-| 3. BIOLOGICAL EMPOWERMENT:                                               |
-|    "Every time you consciously resist an urge, your prefrontal neurons   |
-|     strengthen their synaptic connections. You are literally carving a    |
-|     new superhighway through your brain."                                |
-+--------------------------------------------------------------------------+
-```
+### 7.1 Strict Ethical Guardrails
+1. **Zero Gender Bias or Objectification:** Addiction to digital hyper-stimulation is framed purely around human neurobiology (dopamine receptors, prefrontal braking, and algorithmic hooks). It never blames, shames, or stereotypes men or women.
+2. **De-Stigmatizing & Empowering:** Setbacks are treated with warmth and humor. The built-in **Stage Floor** rule reinforces a healthy clinical message: *a bad night does not erase months of personal growth*.
+3. **Accessible A1–B1 Clarity:** All definitions and habit stories use clear, everyday vocabulary so learners spend their mental energy playing the game rather than struggling to decode dense rule text.
 
 ---
 
-# 8. CARD CATALOG & COPYWRITING SAMPLES
+# 8. THE COMPLETE 20 SEMANTIC FAMILIES & CARD CATALOG (A1–B1)
 
-Below are complete, production-ready copywriting samples from each of the three card decks.
+### 8.1 Master Matrix of All 20 Word Families (80 A1–B1 Words)
+Below is the complete 80-word lexicon organized into **20 Semantic Families** (30 A1 words, 30 A2 words, 20 B1 words):
 
-### 8.1 Lexicon Deck Samples (The Words)
-
-#### Card L-01: **RESILIENCE**
-- **Type:** Lexicon Card (Tier 1: Vital) | **Synaptic ID:** `#01` | **Category:** Behavioral
-- **Pronunciation:** `/rɪˈzɪl.jəns/` | **Part of Speech:** Noun
-- **Etymology:** From Latin *resilire* ("to leap back, rebound").
-- **Card Flavor Text:** *"The prefrontal superpower: bending under the storm of cravings without snapping."*
-
-#### Card L-02: **EPHEMERAL**
-- **Type:** Lexicon Card (Tier 2: Eloquent) | **Synaptic ID:** `#02` | **Category:** Philosophical
-- **Pronunciation:** `/ɪˈfem.ər.əl/` | **Part of Speech:** Adjective
-- **Etymology:** From Greek *ephēmeros* ("lasting only one day").
-- **Card Flavor Text:** *"Cheap digital thrills vanish in seconds, leaving only an empty tab and regret."*
-
-#### Card L-03: **LUCID**
-- **Type:** Lexicon Card (Tier 1: Vital) | **Synaptic ID:** `#03` | **Category:** Cognitive
-- **Pronunciation:** `/ˈluː.sɪd/` | **Part of Speech:** Adjective
-- **Etymology:** From Latin *lucidus* ("light, clear, shining").
-- **Card Flavor Text:** *"That rare, glorious morning when the mental fog lifts and your thoughts click like clockwork."*
-
-#### Card L-04: **TENACIOUS**
-- **Type:** Lexicon Card (Tier 2: Eloquent) | **Synaptic ID:** `#04` | **Category:** Behavioral
-- **Pronunciation:** `/təˈneɪ.ʃəs/` | **Part of Speech:** Adjective
-- **Etymology:** From Latin *tenax* ("holding fast").
-- **Card Flavor Text:** *"Refusing to surrender your life to a glowing rectangular screen."*
-
-#### Card L-05: **SERENDIPITY**
-- **Type:** Lexicon Card (Tier 3: Mastermind) | **Synaptic ID:** `#05` | **Category:** Emotional
-- **Pronunciation:** `/ˌser.ənˈdɪp.ə.ti/` | **Part of Speech:** Noun
-- **Etymology:** Coined by Horace Walpole from the Persian fairy tale *The Three Princes of Serendip*.
-- **Card Flavor Text:** *"Finding genuine happiness in an unexpected conversation while taking an offline walk."*
-
-#### Card L-06: **EQUANIMITY**
-- **Type:** Lexicon Card (Tier 3: Mastermind) | **Synaptic ID:** `#06` | **Category:** Emotional
-- **Pronunciation:** `/ˌek.wəˈnɪm.ə.ti/` | **Part of Speech:** Noun
-- **Etymology:** From Latin *aequus* ("even") + *animus* ("mind").
-- **Card Flavor Text:** *"The mental poise to watch a craving rise, peak, and collapse without flinching."*
-
-#### Card L-07: **PROCRASTINATE**
-- **Type:** Lexicon Card (Tier 1: Vital) | **Synaptic ID:** `#07` | **Category:** Cognitive
-- **Pronunciation:** `/prəˈkræs.tɪ.neɪt/` | **Part of Speech:** Verb
-- **Etymology:** From Latin *pro* ("forward") + *crastinus* ("belonging to tomorrow").
-- **Card Flavor Text:** *"Cleaning your entire apartment just to avoid writing two paragraphs of an email."*
-
-#### Card L-08: **CATHARSIS**
-- **Type:** Lexicon Card (Tier 2: Eloquent) | **Synaptic ID:** `#08` | **Category:** Emotional
-- **Pronunciation:** `/kəˈθɑː.sɪs/` | **Part of Speech:** Noun
-- **Etymology:** From Greek *kathairein* ("to cleanse, purify").
-- **Card Flavor Text:** *"The deep, honest exhale when you finally tell your support group what you've been carrying."*
+| Family # | Semantic Family Theme | Word 1 (A1 — +10%) | Word 2 (A1 or A2) | Word 3 (A2 — +15%) | Word 4 (B1 — +20%) |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| **F-01** | **Calm & Peace** | `Quiet` (A1) | `Calm` (A1) | `Peaceful` (A2) | `Serene` (B1) |
+| **F-02** | **Happiness & Joy** | `Happy` (A1) | `Glad` (A1) | `Cheerful` (A2) | `Delighted` (B1) |
+| **F-03** | **Sadness & Gloom** | `Sad` (A1) | `Sorry` (A1) | `Upset` (A2) | `Miserable` (B1) |
+| **F-04** | **Fear & Worry** | `Afraid` (A1) | `Scared` (A1) | `Nervous` (A2) | `Anxious` (B1) |
+| **F-05** | **Anger & Frustration** | `Angry` (A1) | `Mad` (A1) | `Annoyed` (A2) | `Furious` (B1) |
+| **F-06** | **Tiredness & Fatigue** | `Tired` (A1) | `Sleepy` (A1) | `Weak` (A2) | `Exhausted` (B1) |
+| **F-07** | **Energy & Action** | `Fast` (A1) | `Busy` (A1) | `Active` (A2) | `Energetic` (B1) |
+| **F-08** | **Strength & Grit** | `Strong` (A1) | `Hard` (A1) | `Tough` (A2) | `Firm` (B1) |
+| **F-09** | **Intelligence & Clarity** | `Smart` (A1) | `Clever` (A1) | `Bright` (A2) | `Wise` (B1) |
+| **F-10** | **Kindness & Warmth** | `Kind` (A1) | `Nice` (A1) | `Friendly` (A2) | `Generous` (B1) |
+| **F-11** | **Courage & Bravery** | `Brave` (A1) | `Safe` (A2) | `Bold` (A2) | `Confident` (B1) |
+| **F-12** | **Focus & Care** | `Ready` (A1) | `Careful` (A2) | `Serious` (A2) | `Focused` (B1) |
+| **F-13** | **Confusion & Doubt** | `Lost` (A1) | `Strange` (A2) | `Confused` (A2) | `Puzzled` (B1) |
+| **F-14** | **Honesty & Truth** | `True` (A1) | `Real` (A2) | `Honest` (A2) | `Sincere` (B1) |
+| **F-15** | **Change & Growth** | `New` (A1) | `Fresh` (A2) | `Modern` (A2) | `Better` (B1) |
+| **F-16** | **Difficulty & Challenge** | `Bad` (A1) | `Heavy` (A2) | `Difficult` (A2) | `Severe` (B1) |
+| **F-17** | **Help & Support** | `Good` (A1) | `Useful` (A2) | `Helpful` (A2) | `Supportive` (B1) |
+| **F-18** | **Patience & Waiting** | `Slow` (A1) | `Late` (A2) | `Quietly` (A2) | `Patient` (B1) |
+| **F-19** | **Freedom & Choice** | `Free` (A1) | `Open` (A2) | `Independent` (A2) | `Willing` (B1) |
+| **F-20** | **Success & Pride** | `Great` (A1) | `Lucky` (A2) | `Proud` (A2) | `Successful` (B1) |
 
 ---
 
-### 8.2 Cognitive Clue Deck Samples (Definitions & Synonyms)
+### 8.2 Lexicon Word Card Samples (Player Hand Cards)
 
-#### Card C-01: **Synaptic ID `#01` (Matches Card L-01: Resilience)**
-- **Definition:** The capacity to withstand or recover quickly from difficult conditions; mental and emotional toughness.
-- **Synonyms:** *Fortitude*, *Endurance*.
-- **Sentence Frame:** *"After two weeks of brain fog, his natural ________ returned, allowing him to finish his project."*
+#### Word Card W-01: **CALM**
+- **CEFR Level:** `A1` | **Exact Link:** `+10%` | **Echo Link:** `+5%`
+- **Part of Speech:** Adjective
+- **Flavor Note:** *"Take one deep breath before you click."*
 
-#### Card C-02: **Synaptic ID `#02` (Matches Card L-02: Ephemeral)**
-- **Definition:** Lasting for a very short time; fleeting; transitory.
-- **Synonyms:** *Transient*, *Momentary*.
-- **Sentence Frame:** *"The dopamine rush from social media notifications is entirely ________."*
+#### Word Card W-02: **PEACEFUL**
+- **CEFR Level:** `A2` | **Exact Link:** `+15%` | **Echo Link:** `+10%`
+- **Part of Speech:** Adjective
+- **Flavor Note:** *"A quiet Sunday morning with a cup of tea and zero notifications."*
 
-#### Card C-03: **Synaptic ID `#03` (Matches Card L-03: Lucid)**
-- **Definition:** Expressed clearly and easily understood; completely rational, clear-headed, and sane.
-- **Synonyms:** *Clear-headed*, *Articulate*.
-- **Sentence Frame:** *"After a 7-day digital detox, his mind felt remarkably sharp and ________."*
+#### Word Card W-03: **ANXIOUS**
+- **CEFR Level:** `B1` | **Exact Link:** `+20%` | **Echo Link:** `+10%`
+- **Part of Speech:** Adjective
+- **Flavor Note:** *"When your brain invents ten imaginary disasters before breakfast."*
 
-#### Card C-04: **Synaptic ID `#04` (Matches Card L-04: Tenacious)**
-- **Definition:** Holding firmly to a purpose, action, or belief; persistent; not readily relinquishing a hold.
-- **Synonyms:** *Resolute*, *Persistent*.
-- **Sentence Frame:** *"Her ________ pursuit of healthier habits inspired the entire recovery group."*
-
-#### Card C-05: **Synaptic ID `#05` (Matches Card L-05: Serendipity)**
-- **Definition:** The occurrence and development of events by chance in a happy, beneficial, or unexpected way.
-- **Synonyms:** *Good fortune*, *Chance blessing*.
-- **Sentence Frame:** *"Leaving his phone at home was sheer ________, as he bumped into an old friend in the park."*
-
-#### Card C-06: **Synaptic ID `#06` (Matches Card L-06: Equanimity)**
-- **Definition:** Mental calmness, composure, and evenness of temper, especially in a difficult or stressful situation.
-- **Synonyms:** *Composure*, *Serenity*.
-- **Sentence Frame:** *"Through daily mindfulness, she faced stressful deadlines with unwavering ________."*
-
-#### Card C-07: **Synaptic ID `#07` (Matches Card L-07: Procrastinate)**
-- **Definition:** To delay or postpone action; to put off doing something that requires immediate attention until a later time.
-- **Synonyms:** *Dally*, *Delay*.
-- **Sentence Frame:** *"He knew he shouldn't ________, yet opened YouTube for 'just five minutes'."*
-
-#### Card C-08: **Synaptic ID `#08` (Matches Card L-08: Catharsis)**
-- **Definition:** The process of releasing and thereby providing relief from strong or repressed emotions.
-- **Synonyms:** *Purification*, *Release*.
-- **Sentence Frame:** *"Admitting his addiction to his close friends felt like an overwhelming ________."*
+#### Word Card W-04: **EXHAUSTED**
+- **CEFR Level:** `B1` | **Exact Link:** `+20%` | **Echo Link:** `+10%`
+- **Part of Speech:** Adjective
+- **Flavor Note:** *"How your eyes feel after scrolling video feeds until 2:00 AM."*
 
 ---
 
-### 8.3 Habit Loops & Triggers Deck Samples (The Life Events)
+### 8.3 Cognitive Clue Card Samples (Table Meaning Row Cards)
 
-#### Card H-01: **"The 1:15 AM Bedroom Loop"**
-- **Card Type:** Relapse Trigger (Setback)
-- **Flavor Text:** *"You were lying in bed, exhausted. Instead of sleeping, you unlocked your screen 'just to check tomorrow’s weather.' Forty-five minutes later, you slipped into an incognito window. Prefrontal control went dark."*
-- **Game Effect:** Lose **-10% Progression**. *(Can be blocked with an Urge Surfing Token!)*
-- **Neuroscience Note:** *Blue screen light suppresses melatonin while novelty-seeking triggers nocturnal striatal dopamine spikes.*
+#### Clue Card C-01 (Family F-01: Calm & Peace)
+- **Definition:** *"Relaxed, quiet, and not worried, angry, or excited."*
+- **Read the Frame:** *"After turning off his phone for an hour, his mind finally felt ________."*
+- **🔍 Red Decoder Strip (Hidden until viewed with Red Lens):**
+  - `★ EXACT WORD: CALM (A1: +10%)`
+  - `◎ ECHO FAMILY: Quiet (A1: +5%), Peaceful (A2: +10%), Serene (B1: +10%)`
 
-#### Card H-02: **"Sunday Mud Football"**
-- **Card Type:** Keystone Habit (Boost)
-- **Flavor Text:** *"Your friends dragged you out of your dark room for a chaotic game of 5-a-side football in the drizzling rain. You got covered in mud, laughed until your stomach hurt, and ate street tacos afterwards."*
-- **Game Effect:** Gain **+10% Progression**!
-- **Neuroscience Note:** *Intense aerobic activity upregulates BDNF (Brain-Derived Neurotrophic Factor), accelerating dendritic repair in the hippocampus and prefrontal cortex.*
+#### Clue Card C-02 (Family F-04: Fear & Worry)
+- **Definition:** *"Feeling very worried or nervous that something bad might happen."*
+- **Read the Frame:** *"Waiting for exam results always makes students feel a little ________."*
+- **🔍 Red Decoder Strip (Hidden until viewed with Red Lens):**
+  - `★ EXACT WORD: ANXIOUS (B1: +20%)`
+  - `◎ ECHO FAMILY: Afraid (A1: +5%), Scared (A1: +5%), Nervous (A2: +10%)`
 
-#### Card H-03: **"The Boredom Vacuum"**
-- **Card Type:** Relapse Trigger (Setback)
-- **Flavor Text:** *"A quiet Sunday afternoon with zero plans and an empty calendar. With no structure in place, the void whispered: 'Just take a quick peek.' You yielded to the cue."*
-- **Game Effect:** Lose **-5% Progression**. *(Can be blocked with an Urge Surfing Token!)*
-- **Recovery Tip:** *Boredom is an emotional state, not a biological command. Build structured routines for unstructured downtime.*
-
-#### Card H-04: **"Urge Surfing Breakthrough"**
-- **Card Type:** Reactive Shield (Keep in Hand)
-- **Flavor Text:** *"A massive craving hit you like a freight train after a stressful work meeting. Instead of reaching for your browser, you set a timer for 15 minutes, closed your eyes, and observed your physical sensations without judgment. The craving peaked and broke."*
-- **Game Effect:** Receive **1 Urge Surfing Token**. Keep this card face-up beside your player board.
-
-#### Card H-05: **"The Accountability SOS"**
-- **Card Type:** Support Circle Action (Interactive)
-- **Flavor Text:** *"Your hand was hovering over the mouse. Your heart was pounding. You swallowed your pride and sent a text: 'Hey, I'm getting a bad urge right now.' Within 30 seconds, your buddy called: 'Go do 30 pushups right now. I'll stay on the phone.'"*
-- **Game Effect:** Choose an accountability partner at the table. Both of you gain **+5% Progression**!
-
-#### Card H-06: **"Cold Shower & Wim Hof Breathing"**
-- **Card Type:** Keystone Habit (Boost)
-- **Flavor Text:** *"When the urge felt unbearable, you jumped into an ice-cold shower. You gasped, shivered, and forced your breathing into deep, slow rhythms. Your sympathetic nervous system fired, and the mental craving was utterly crushed."*
-- **Game Effect:** Gain **+10% Progression** and draw 1 bonus Lexicon Card!
-
-#### Card H-07: **"The Algorithm Rabbit Hole"**
-- **Card Type:** Relapse Trigger (Setback)
-- **Flavor Text:** *"You clicked on a suggestive fitness thumbnail on Instagram. The algorithm noted your hesitation and flooded your feed with hyper-sexualized content. You spent two hours in a trance."*
-- **Game Effect:** Lose **-5% Progression**. You must discard 1 Lexicon Card from your hand.
-
-#### Card H-08: **"Cooked a Gourmet Offline Meal"**
-- **Card Type:** Keystone Habit (Boost)
-- **Flavor Text:** *"You bought fresh garlic, rosemary, and chicken. You diced onions, seasoned the meat, and listened to instrumental jazz without a single screen in sight. The aroma filled your home."*
-- **Game Effect:** Gain **+5% Progression** and advance your hand limit by 1 for the rest of this round.
+#### Clue Card C-03 (Family F-06: Tiredness & Fatigue)
+- **Definition:** *"Completely without energy; needing rest or sleep very badly."*
+- **Read the Frame:** *"After playing football in the rain for two hours, the whole team was ________."*
+- **🔍 Red Decoder Strip (Hidden until viewed with Red Lens):**
+  - `★ EXACT WORD: EXHAUSTED (B1: +20%)`
+  - `◎ ECHO FAMILY: Tired (A1: +5%), Sleepy (A1: +5%), Weak (A2: +10%)`
 
 ---
 
-# 9. ROUND-BY-ROUND GAMEPLAY SIMULATION
+### 8.4 Opportunity & Habit Card Samples
 
-To illustrate how these systems interact dynamically, here is an authentic 3-player playthrough simulation featuring **Alex**, **Maya**, and **Sam**.
+#### Opportunity Card O-01: **⚡ LIFE HAPPENS (10 Copies in Lexicon Deck)**
+- **Effect:** *"Immediately flip the top card of the Habit Loops Deck and resolve its effect. Then draw a replacement Word Card from the Lexicon Deck."*
 
-```
-PLAYER ROSTER:
-- Alex (Green Brain Marker)   - Starting at 0% (The Dopamine Fog)
-- Maya (Purple Brain Marker)  - Starting at 0% (The Dopamine Fog)
-- Sam (Gold Brain Marker)     - Starting at 0% (The Dopamine Fog)
-```
+#### Opportunity Card O-02: **🎲 DOUBLE OR NOTHING (5 Copies in Lexicon Deck)**
+- **Effect:** *"Stop! Before touching the Habit Deck, choose ONE:*
+  - ***Play It Safe:*** *Gain a guaranteed **+5% Progression** right now.*
+  - ***Double or Nothing:*** *Flip the top card of the Habit Deck and **double** its effect! (Warning: Doubled losses ignore your Stage Floor!).*
+  *Then draw a replacement Word Card from the Lexicon Deck."*
 
-### 9.1 Game Setup
-1. Each player places their Brain Marker at **0%** on their personal Progression Board.
-2. The **Synaptic Display** is dealt to the center of the table:
-   - **Lexicon Row:** *Resilience* (`#01`), *Ephemeral* (`#02`), *Procrastinate* (`#07`).
-   - **Cognitive Clue Row:** 
-     - Clue A: *"The capacity to withstand or recover quickly..."* (`#01`)
-     - Clue B: *"To delay or postpone action..."* (`#07`)
-     - Clue C: *"Expressed clearly; rational..."* (`#03`)
-3. Each player is dealt **3 cards** from the Lexicon Deck (Hand Limit for Stage 1: The Dopamine Fog).
+#### Habit Card H-01: **"Sunday Mud Football"** *(Keystone Habit — Boost)*
+- **Flavor Text:** *"Your friends pulled you out of your bedroom for a 5-on-5 football match in the park. You slipped in the mud, missed an easy goal, and laughed for an hour."*
+- **Effect:** **Gain +10% Progression!** *(Or +20% if doubled!)*
 
----
+#### Habit Card H-02: **"The 1:15 AM Bedroom Loop"** *(Relapse Trigger — Setback)*
+- **Flavor Text:** *"You took your phone to bed 'just to set an alarm.' Forty minutes later, late-night boredom pulled you back into an old habit."*
+- **Effect:** **Lose -10% Progression.** *(Stops at your Stage Floor, unless doubled by Double or Nothing!)*
 
-### 9.2 Round 1: Breaking the Fog
-
-**Alex's Turn (Active Player):**
-- **Phase 1 (Draw):** Alex's hand already has 3 cards: *Lucid* (`#03`), *Tenacious* (`#04`), and *Catharsis* (`#08`). He draws no Habit card this turn.
-- **Phase 2 (Neuro-Link):** Alex inspects the central display. He notices Clue C: *"Expressed clearly; rational..."*
-  - Alex plays *Lucid* from his hand and announces: *"I believe Lucid matches Clue C!"*
-- **Phase 3 (Verification & Challenge):**
-  - Alex flips Clue C. Both cards display **Synaptic ID `#03`**. Match confirmed!
-  - **Verbal Fluency Challenge:** Alex must construct a sentence.
-  - Alex states: *"After my first week without digital bingeing, I finally had a lucid morning where I could read an entire book chapter."*
-  - Maya and Sam smile and knock on the table in approval.
-  - **Outcome:** Alex advances his Brain Marker from **0% to +10%**!
-  - Alex discards the matched pair to the archive and refills the display.
-
-**Maya's Turn:**
-- Maya spots *Resilience* (`#01`) and Clue A (`#01`) both sitting in the open Synaptic Display!
-- On her turn, Maya executes a "Table Display Match", connects the two cards, and provides her sentence: *"Building resilience is about bouncing back every time an old urge knocks on the door."*
-- Maya advances from **0% to +10%**.
-
-**Sam's Turn:**
-- Sam has *Procrastinate* (`#07`) in hand and matches Clue B (`#07`).
-- Sentence: *"I used to procrastinate on all my university essays by opening fifty Reddit tabs."*
-- Sam advances from **0% to +10%**.
+#### Habit Card H-03: **"The Accountability SOS"** *(Support Circle Action)*
+- **Flavor Text:** *"When a strong craving hit, you didn't hide. You texted your friend: 'Hey, let's go grab food.' You both stepped away from your screens."*
+- **Effect:** **You gain +5% Progression, AND the player with the lowest score gains +5% Progression!**
 
 ---
 
-### 9.3 Round 2: A Trigger Hits the Table
+# 9. ROUND-BY-ROUND GAMEPLAY SIMULATION (v4 RULES)
 
-**Alex's Turn:**
-- **Phase 1:** Alex draws from the Lexicon deck to refill his hand. A red border appears: it's a **Habit Loops Card: "The 1:15 AM Bedroom Loop"**!
-- Alex reads the card aloud: *"You were lying in bed, tired, and opened your phone to check tomorrow's weather. Forty-five minutes later, an old trigger caught you. Lose -10% Progression!"*
-- Alex groans: *"Ah, man! The late-night phone trap."*
-- Alex has no Urge Surfing Token yet (he is still in Stage 1).
-- **Outcome:** Alex drops from **10% back to 0%**.
-- However, Alex stays determined: *"Alright, my baseline is back at zero, but I know how to climb back."*
-- **Phase 2:** Alex matches a synonym pair from his hand and delivers a strong sentence, advancing back from **0% to +10%**.
+Let's walk through a 3-player session with **Alex**, **Maya**, and **Sam** to see how the **20-Family Synaptic Web**, **Red Decoder Lens**, **Study Action**, and **Opportunity Cards** play out at the table.
+
+### Setup
+- **Alex, Maya, and Sam** place their Brain Markers at **0% (Stage 1: The Dopamine Fog — Floor: 0%, Hand Limit: 4 Cards)**.
+- Each player is dealt **4 Word Cards** from the Lexicon Deck. Then the **15 Opportunity Cards** (`10 Life Happens`, `5 Double or Nothing`) are shuffled into the Lexicon Deck.
+- **6 Cognitive Clue Cards** are placed face-up in the **Meaning Row** at the center of the table, alongside the **2 Red Acrylic Decoder Lenses**.
 
 ---
 
-### 9.4 Round 3: The Urge Surfing Save & Milestone Perk
+### Round 1: Exact & Echo Links in Action
 
-Fast forward to **Round 6**:
-- **Maya** has made consistent, smart plays and reaches **45% (Stage 3: Prefrontal Rebound)**!
-- **Milestone Unlocked:** Maya's brain board illuminates. She immediately receives **1 free Urge Surfing Token** from the supply!
-- On her next turn, Maya draws a sudden event: **"The Boredom Vacuum (-5% Setback)"**.
-- Instead of taking the loss, Maya slaps her acrylic shield token onto the card:
-  - Maya shouts: **"Surfing the Urge!"**
-  - She discards her Urge Surfing Token.
-  - **Outcome:** The setback is completely nullified! Maya gains **+5% bonus progression** for mindful self-regulation, jumping to **50%**!
+1. **Alex's Turn (0%):**
+   - **Hand (4 Cards):** `Calm` (A1), `Busy` (A1), `Proud` (A2), `Sincere` (B1).
+   - **Action (Forge a Neuro-Link):** Alex reads Clue #1 in the Meaning Row: *"Relaxed, quiet, and not worried, angry, or excited."*
+   - Alex plays `Calm` (A1) and places the **Red Decoder Lens** over Clue #1's Decoder Strip.
+   - The lens reveals: `★ EXACT WORD: CALM (A1: +10%)`!
+   - Alex reads the frame aloud: *"After turning off his phone for an hour, his mind finally felt **calm**."*
+   - **Score:** Alex advances from **0% $\rightarrow$ 10%**. Both cards are discarded, Clue #1 is replaced, and Alex draws 1 replacement Word Card.
 
----
+2. **Maya's Turn (0%):**
+   - **Hand (4 Cards):** `Afraid` (A1), `Tired` (A1), `Modern` (A2), `Generous` (B1).
+   - **Action (Forge a Neuro-Link — Echo Link!):** Maya looks at Clue #2: *"Feeling very worried or nervous that something bad might happen."*
+   - Maya doesn't know the B1 word *Anxious*, and doesn't have it in hand—but she recognizes that `Afraid` (A1) belongs to the **same worry/fear family**!
+   - She plays `Afraid` and checks Clue #2 with the **Red Decoder Lens**:
+     - `★ EXACT WORD: ANXIOUS (B1: +20%)`
+     - `◎ ECHO FAMILY: Afraid (A1: +5%), Scared, Nervous`
+   - **Score:** Because `Afraid` is in the Echo Family, Maya scores an **Echo Link (+5%)**, moving from **0% $\rightarrow$ 5%**, and learns the word *Anxious*!
+   - **Refill & Opportunity Trigger:** Maya draws 1 card from the Lexicon Deck to refill her hand—and flips **⚡ LIFE HAPPENS**!
+   - She flips the top card of the Habit Deck: **"Sunday Mud Football (+10%)"**!
+   - Maya cheers and advances from **5% $\rightarrow$ 15%**, then draws her replacement Word Card.
 
-### 9.5 Endgame Climax: Crossing the 100% Threshold
+3. **Sam's Turn (0%):**
+   - **Hand (4 Cards):** Sam holds 4 difficult cards that don't match anything he recognizes in the Meaning Row.
+   - **Action (The Study Action):** Instead of wasting his turn, Sam picks up the **Red Decoder Lens** and secretly peeks at the Decoder Strip on Clue #5 in the Meaning Row.
+   - He sees: `★ EXACT WORD: DELIGHTED (B1) | ◎ ECHO FAMILY: Happy, Glad, Cheerful`.
+   - Sam then discards 2 hard cards from his hand and draws 2 new cards—one of which happens to be `Cheerful` (A2)! Sam smiles, knowing he has a guaranteed link ready for Round 2.
 
-By **Round 11**, the table is electric.
-- Sam is at **80% (Stage 4)**.
-- Alex has rebounded vigorously to **85% (Stage 5: Neuroplastic Mastery)**.
-- Maya is at **90% (Stage 5)**.
-
-**Maya's Turn:**
-- Hand Limit: 5 Cards (Stage 5 perk).
-- The central display features a Tier 3 Mastermind word: *Equanimity* (`#06`).
-- Maya holds the corresponding Clue Card in her hand: *"Mental calmness, composure, and evenness of temper..."*
-- Furthermore, because Maya is in Stage 5, she can activate the **"Dual-Synonym Combo"**:
-  - She correctly identifies **both** synonyms (*Composure* and *Serenity*) from the display!
-- Maya delivers her final sentence with quiet confidence:
-  - *"Standing here today, having rewired my mind alongside all of you, I feel true equanimity in my daily life."*
-- The table erupts in genuine applause.
-- **Outcome:** The Dual-Synonym Combo awards **+15% Progression**!
-- Maya's Brain Marker moves from **90% -> 100% (NEUROPLASTIC MASTERY)**!
-- Maya wins the game, restoring her prefrontal cortex to full baseline vitality!
+*End of Round 1: The oldest Clue card on the far left of the Meaning Row is discarded and replaced with a fresh Clue card.*
 
 ---
 
-# 10. REPLAYABILITY, EXPANSIONS, AND ALTERNATIVE GAME MODES
+### Fast-Forward to Round 5: Stage Floors & "Double or Nothing" Drama
 
-### 10.1 Cooperative Support Group Mode ("The Circle Wins Together")
-For players who prefer mutual collaboration over competitive victory:
-- **Shared Victory Goal:** The group must help **ALL players reach 80%+ (Stage 4 or 5)** before the **"Craving Clock"** (a special 12-card deck of escalating triggers) runs out.
-- **Card Sharing:** Players can freely trade 1 card per round during Phase 1.
-- If any player relapses, other players can pool their Urge Surfing Tokens to protect them.
-- Promotes intense bonding, discussion, and authentic mutual support.
+- **Maya** is now at **45% (Stage 3: Prefrontal Rebound — Floor: 45%, Hand Limit: 5 Cards)**.
+  - Because she reached Stage 3, she unlocked **Synaptic Resonance (+5% bonus on all Echo Links)**.
+- **Alex** is trailing at **30% (Stage 2: Synaptic Spark — Floor: 25%, Hand Limit: 5 Cards)**.
 
-### 10.2 Solo Neuro-Gym Workout Mode
-A single-player cognitive training exercise:
-- Set a timer for **15 minutes**.
-- Place 6 Lexicon Cards and 6 Cognitive Clue Cards in a grid.
-- Attempt to clear the entire grid by matching pairs and writing down an expressive sentence for each word in a journal.
-- Track your "Cognitive Score" based on speed, accuracy, and vocabulary difficulty.
+1. **Maya's Turn (45%):**
+   - Maya plays an **Echo Link** using an A2 word (`+10%` base + `+5%` Stage 3 Synaptic Resonance = **+15%**) and surges from **45% $\rightarrow$ 60%**!
+   - When drawing her replacement card, Maya reveals **🎲 DOUBLE OR NOTHING**!
+   - **The Decision:** Maya is leading at `60%` (15% above her Stage 3 floor of `45%`). If she gambles and draws a `-10%` setback, it will double to `-20%` and *ignore her Stage Floor*, crashing her back to `40%` (Stage 2)!
+   - Maya wisely announces: *"I'm playing it safe!"* She takes the **guaranteed +5%**, advancing to **65% (entering Stage 4: Cognitive Flow, Floor: 65%, Hand Limit: 6 Cards)**!
 
-### 10.3 High-Replayability Modifiers & Expansion Decks
-1. **The "Academic & Professional Lexicon" Expansion:** 100 high-level GRE/SAT vocabulary cards focusing on critical thinking, rhetoric, and logic.
-2. **The "Mindfulness & Somatics" Mini-Expansion:** Introduces grounding exercises, breathwork challenges, and physical posture resets.
-3. **Variable Character Archetypes:** Optional player role cards with unique recovery strengths:
-   - *The Athlete:* Gains double progression from physical activity habit cards.
-   - *The Scholar:* Draws 1 extra card when matching Tier 3 Mastermind words.
-   - *The Mindfulness Guide:* Starts the game with an extra Urge Surfing Token.
+2. **Alex's Turn (30%):**
+   - Alex matches an A2 **Exact Link (+15%)**, moving from **30% $\rightarrow$ 45% (Stage 3)**.
+   - While drawing up to his 5-card limit, Alex also draws **🎲 DOUBLE OR NOTHING**!
+   - **The Decision:** Alex is trailing Maya (`45%` vs `65%`). He decides to push his luck: *"I'm going Double or Nothing!"*
+   - Alex flips the top Habit Card: **"5K Morning Run (+15% Boost)"**!
+   - Doubled to **+30%**, Alex rockets from **45% $\rightarrow$ 75% (Stage 4)**, taking the lead as the whole table erupts!
 
 ---
 
-# 11. CONCLUSION & DESIGN SUMMARY
-*REWIRED: The Prefrontal Recovery Club* transforms a deeply sensitive, modern behavioral struggle into an empowering, scientifically authenticated, and joyful tabletop experience. By merging **rigorous neuroscience** with **clever linguistic matching mechanics**, the game achieves three critical goals:
-1. It destigmatizes the neurobiology of digital overstimulation without preachiness or judgment.
-2. It expands English vocabulary through active, spoken verbal fluency rather than passive memorization.
-3. It offers exceptional replayability through dynamic habit cards, self-verifying puzzles, and supportive table interactions.
+# 10. MONTE CARLO BALANCING SUMMARY & REPLAYABILITY
 
-*Your brain is plastic. Your habits can change. Take your seat at the circle.*
+Full details and methodology are available in [`MONTE_CARLO_SIMULATION_REPORT.md`](MONTE_CARLO_SIMULATION_REPORT.md). Below is the performance summary of the final **REWIRED v4** ruleset across 2, 3, and 4 players:
+
+| Metric (2,500 Simulated Games per Setup) | 2 Players (Standard) | 2 Players (Fast 85% Goal) | **3 Players (Standard)** | **4 Players (Standard)** |
+| :--- | :---: | :---: | :---: | :---: |
+| **Median Rounds to Victory** | 13.0 | **11.0** | **10.0** | **9.0** |
+| **Turns with Useful Action (Link or Study)** | 69.3% | 71.9% | **78.2%** | **81.7%** |
+| **Turns that Score a Word Link** | 45.4% | 44.2% | **50.4%** | **51.8%** |
+| **Verified Word Links per Game** | 11.5 | 9.6 | **15.8** | **19.7** |
+| **Habit Cards Resolved per Game** | 9.2 | 8.0 | **11.5** | **13.7** |
+| **Winner's Progress from Words vs. Habits** | 66% Words / 34% Habits | 63% Words / 37% Habits | **68.5% Words / 31.5% Habits** | **67% Words / 33% Habits** |
+| **Best Vocabulary Player Win Rate** *(Fair: 50/33/25%)* | 64.8% | 61.4% | **53.8%** | **42.3%** |
+| **Comeback Win Rate** *(Behind at 50%, still won)* | 20.0% | 16.9% | **31.2%** | **35.6%** |
+
+### Why v4 Achieves Optimal Tabletop Balance:
+1. **Words Drive the Engine (67%–69% of Progress):** Players forge **15 to 20 verified word links per game** (4.5$\times$ more than v1), learning both exact definitions and semantic word families.
+2. **Habit Events Create Memorable Stories (~32% of Progress):** The **15 Opportunity Cards** (`10 Life Happens` + `5 Double or Nothing`) trigger ~11–14 Habit cards per game—enough to create laughter, comebacks (**31%–36% comeback rate**), and push-your-luck tension without overriding vocabulary skill.
+3. **Zero Token Clutter & Zero Speaking Anxiety:** Removing Shield Tokens, Safe Cards, and mandatory original sentences makes the game immediately welcoming to A1–B1 learners while keeping every turn brisk and meaningful.
