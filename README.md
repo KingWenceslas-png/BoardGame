@@ -14,6 +14,7 @@
 ## 📚 Core Repository Documents
 - 👉 **[GAME_DESIGN_DOCUMENT.md](GAME_DESIGN_DOCUMENT.md)** — Complete v4 Game Design Document (Neuroscience research, 20 Semantic Word Families, Red Decoder Lens mechanics, A1–B1 card catalog, and round-by-round gameplay simulation).
 - 📊 **[MONTE_CARLO_SIMULATION_REPORT.md](MONTE_CARLO_SIMULATION_REPORT.md)** — Full statistical report from 27,500+ simulated games testing the 20-family matching engine, Opportunity card splits, Double or Nothing policies, and player count scaling.
+- 🔄 **[REPLAYABILITY_ANALYSIS.md](REPLAYABILITY_ANALYSIS.md)** — Mathematical deck-exposure diagnosis, head-to-head replayability comparison against 7 industry word games, and 5 design upgrades to scale replayability to 40+ games.
 - 🐍 **[rewired_v4_sim.py](rewired_v4_sim.py)** — Reproducible Python Monte Carlo simulation suite.
 
 ---
