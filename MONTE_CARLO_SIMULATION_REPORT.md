@@ -40,7 +40,7 @@ By organizing the 80 A1–B1 words into **20 Semantic Families of 4 related word
 **Simulation Impact:**
 - Useful actions per turn jump from **20% (v1) $\rightarrow$ 78.2% (v4)**.
 - Scoring vocabulary turns jump from **16% (v1) $\rightarrow$ 50.4% (v4)**.
-- Verified word links per game jump from **3.5 (v1) $\rightarrow$ 15.8 (v4)** (a **4.5$\times$ increase** in actual English vocabulary practice per game).
+- Verified word links per game jump from **3.5 (v1) $\rightarrow$ 15.8 (v4)** (a **$4.5\times$ increase** in actual English vocabulary practice per game).
 
 ---
 
